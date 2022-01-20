@@ -16,3 +16,7 @@ pipeline {
             steps {
                 sh 'sshpass -p "sai" scp target/gamutkart.war sai@172.17.0.2:/opt/apache-tomcat-9.0.56/webapps'
             }
+        }
+    }
+}
+
